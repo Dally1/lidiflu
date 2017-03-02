@@ -41,6 +41,20 @@
 
 /* End of tablet view CSS */
 
+/* Desktop view CSS */
+
+@media screen and (min-width: 500px){
+    footer{
+        visibility: hidden;
+    }
+    html{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* End of desktop view CSS */
+
 #footer a {
     font-size: 12px;
 }
